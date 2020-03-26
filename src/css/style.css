@@ -1,0 +1,33 @@
+.calculator {
+  color: white;
+}
+
+.output {
+  background-color: #191919;
+  font-size: 70px;
+  line-height: 120px;
+  min-height: 120px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.inputButtons {
+  display: -ms-grid;
+  display: grid;
+  font-size: 40px;
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
+  line-height: 120px;
+  text-align: center;
+}
+
+.button {
+  background-color: #302f30;
+  border: 1px solid black;
+  height: auto;
+}
+
+.button:hover {
+  background-color: #474747;
+}
+/*# sourceMappingURL=style.css.map */
